@@ -30,7 +30,7 @@ namespace ToDoListAPI
             var app = builder.Build();
 
             using (var scope = app.Services.CreateScope()){
-                var dbContext = scope.ServicesProvider.GetRequiredServices<ToDoContext>();
+                var dbContext = scope.ServiceProvider.GetRequiredService<ToDoContext>();
                 dbContext.Database.Migrate();
             }
             
