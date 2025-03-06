@@ -1,10 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using ToDoListAPI.Data;
-using (var scope = app.Services.CreateScope()){
-    var dbContext = scope.ServicesProvider.GetRequiredServices<ToDoContext>();
-    dbContext.Database.Migrate();
-}
+
 
 namespace ToDoListAPI
 {
@@ -31,6 +28,12 @@ namespace ToDoListAPI
             });
 
             var app = builder.Build();
+
+            using (var scope = app.Services.CreateScope()){
+                var dbContext = scope.ServicesProvider.GetRequiredServices<ToDoContext>();
+                dbContext.Database.Migrate();
+            }
+            
             app.UseCors("AllowAll");
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
