@@ -1,6 +1,10 @@
 
 using Microsoft.EntityFrameworkCore;
 using ToDoListAPI.Data;
+using (var scope = app.Services.CreateScope()){
+    var dbContext = scope.ServicesProvider.GetRequiredServices<ToDoContext>();
+    dbContext.Database.Migrate();
+}
 
 namespace ToDoListAPI
 {
@@ -8,6 +12,7 @@ namespace ToDoListAPI
     {
         public static void Main(string[] args)
         {
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
