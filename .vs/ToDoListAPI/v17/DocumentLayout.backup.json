@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18FCDF95-6F38-48FA-B2B3-E87CF44A2B25}|ToDoListAPI.csproj|c:\\users\\tarik\\desktop\\todolist\\todolistapi\\frontend\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18FCDF95-6F38-48FA-B2B3-E87CF44A2B25}|ToDoListAPI.csproj|solutionrelative:frontend\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18FCDF95-6F38-48FA-B2B3-E87CF44A2B25}|ToDoListAPI.csproj|c:\\users\\tarik\\desktop\\todolist\\todolistapi\\frontend\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18FCDF95-6F38-48FA-B2B3-E87CF44A2B25}|ToDoListAPI.csproj|solutionrelative:frontend\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18FCDF95-6F38-48FA-B2B3-E87CF44A2B25}|ToDoListAPI.csproj|c:\\users\\tarik\\desktop\\todolist\\todolistapi\\frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18FCDF95-6F38-48FA-B2B3-E87CF44A2B25}|ToDoListAPI.csproj|solutionrelative:frontend\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18FCDF95-6F38-48FA-B2B3-E87CF44A2B25}|ToDoListAPI.csproj|c:\\users\\tarik\\desktop\\todolist\\todolistapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18FCDF95-6F38-48FA-B2B3-E87CF44A2B25}|ToDoListAPI.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 286,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\Frontend\\styles.css",
+              "RelativeDocumentMoniker": "Frontend\\styles.css",
+              "ToolTip": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\Frontend\\styles.css",
+              "RelativeToolTip": "Frontend\\styles.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-05T20:20:13.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T18:10:26.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\Frontend\\script.js",
+              "RelativeDocumentMoniker": "Frontend\\script.js",
+              "ToolTip": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\Frontend\\script.js",
+              "RelativeToolTip": "Frontend\\script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-04T16:52:04.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\Frontend\\index.html",
+              "RelativeDocumentMoniker": "Frontend\\index.html",
+              "ToolTip": "C:\\Users\\Tarik\\Desktop\\ToDoList\\ToDoListAPI\\Frontend\\index.html",
+              "RelativeToolTip": "Frontend\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-04T16:51:36.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
