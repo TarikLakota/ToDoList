@@ -22,7 +22,7 @@ namespace ToDoListAPI
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll",
-                    policy => policy.AllowAnyOrigin()
+                    builder => builder.AllowAnyOrigin()
                                   .AllowAnyHeader()
                                   .AllowAnyMethod());
             });
