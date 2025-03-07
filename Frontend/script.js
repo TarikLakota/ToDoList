@@ -1,8 +1,8 @@
-﻿const api_url = "https://todolist-19aq.onrender.com/api/task";
+﻿const API_URL = "https://todolist-19aq.onrender.com/api/task";
 
 async function fetchTask() {
     try {
-        const response = await fetch("api_url");
+        const response = await fetch("API_URL");
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
         const tasks = await response.json();
@@ -51,7 +51,7 @@ async function addTask() {
 
     const task = { name, description, isCompleted: false };
 
-    await fetch(api_url, {
+    await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },//this says to server "I am sending JSON data"
         body: JSON.stringify(task)
@@ -65,7 +65,7 @@ async function addTask() {
 //toggle task completion
 async function toggleTask(id, isCompleted) {
     try {
-        const response = await fetch(`${api_url}/${id}`);
+        const response = await fetch(`${API_URL}/${id}`);
         if (!response.ok) throw new Error(`HTTP error! Status: ${respons.status}`);
 
         const task = await response.json();//fetch full task details
@@ -79,7 +79,7 @@ async function toggleTask(id, isCompleted) {
         };
 
         console.log("Sending PUT request with:", updatedTask);
-        const updatedResponse = await fetch(`${api_url}/${id}`, {
+        const updatedResponse = await fetch(`${API_URL}/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -101,7 +101,7 @@ async function toggleTask(id, isCompleted) {
 //delete a task
 async function deleteTask(id) {
     try {
-        const response = await fetch(`${api_url}/${id}`, {
+        const response = await fetch(`${API_URL}/${id}`, {
             method: "DELETE"
         });
 
