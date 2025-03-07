@@ -1,7 +1,6 @@
 bin/
 obj/
 .vs/
-todo.db
 todo.db-shm
 todo.db-wal
 Migrations/
