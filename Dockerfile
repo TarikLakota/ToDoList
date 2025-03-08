@@ -3,7 +3,7 @@ WORKDIR /app
 COPY *.csproj ./
 RUN dotnet restore
 COPY . ./
-RUN dotnet publish ToDoListApi.csproj -c Release -o out
+RUN dotnet publish ToDoListAPI.csproj -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/out ./
