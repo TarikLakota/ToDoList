@@ -3,5 +3,5 @@ obj/
 .vs/
 todo.db-shm
 todo.db-wal
-Migrations/
+
 
